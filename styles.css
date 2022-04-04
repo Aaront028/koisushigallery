@@ -1,0 +1,113 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Open Sans', sans-serif;
+}
+
+p {
+    line-height: 28.5px;
+    letter-spacing: 0.35px;
+}
+
+footer {
+    text-align: center;
+}
+
+hr {
+    margin: 0 30% 20px 30%;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 0 10% 0 10%;
+  }
+  
+th, td {
+padding: 8px;
+text-align: left;
+border-bottom: 1px solid #ddd;
+width: 100%;
+}
+
+.menubar {
+    display: table;
+    margin:0 auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+
+.mynavbar {
+    background-color: rgba(0,0,0,0.5);
+    height: auto;
+    width: 100%;
+}
+
+img.logoimage{
+    display: block;
+    padding: 25px;
+    height: 300px;
+    width: 300px;
+    margin: auto;
+}
+
+
+.mobile-title {
+    visibility: hidden;
+}
+
+
+
+.hero-image {
+    background-image: url("images/sushihero.png");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 1000px;
+    width: 100%;
+}
+
+.col-lg-6 {
+    padding: 5%;
+}
+
+
+@media only screen and (max-width: 768px){
+    .navbar {
+        height: auto;
+        margin: auto;
+    }
+
+    img.logoimage{
+        display: none;    
+    }
+
+    .mobile-title {
+        font-family:'Open Sans', sans-serif;
+        visibility: visible;
+        color: white;
+        padding: 20px;
+    }
+
+}
