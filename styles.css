@@ -145,7 +145,10 @@ img.logoimage{
         font-size: 25px;
         padding: 20px;
     }
-
+    .hero-image {
+        height: 400px;
+        background-size: 60%
+    }
     .menubar {
         display: none;
     }
