@@ -14,8 +14,12 @@ footer {
 }
 
 hr {
-    margin: 0 30% 20px 30%;
+    color: #EEEDDE;
+    border-style: solid;
+    border-width: 5px;
+    margin: 40px 30% 40px 30%;
 }
+
 
 table {
     border-collapse: collapse;
@@ -30,9 +34,19 @@ border-bottom: 1px solid #ddd;
 width: 100%;
 }
 
+.fa-solid{
+    font-size: 3rem;
+    color:black;
+}
+
 .menubar {
     display: table;
     margin:0 auto;
+}
+
+.description {
+    padding: 10%;
+    background-color: #EEEDDE;
 }
 ul {
     list-style-type: none;
@@ -54,7 +68,8 @@ li a {
 }
 
 li a:hover {
-    background-color: #111;
+    background-color: #EEEDDE;
+    color: black;
 }
 
 
@@ -62,6 +77,20 @@ li a:hover {
     background-color: rgba(0,0,0,0.5);
     height: auto;
     width: 100%;
+}
+
+.mynavbar .icon {
+    display: none;
+  }
+  
+
+.hamburger {
+    display: none;
+    background-color: transparent;
+    border: 0;
+    color: white;
+    cursor: pointer;
+    font-size: 25px;
 }
 
 img.logoimage{
@@ -74,9 +103,8 @@ img.logoimage{
 
 
 .mobile-title {
-    visibility: hidden;
+    display: none;
 }
-
 
 
 .hero-image {
@@ -88,15 +116,21 @@ img.logoimage{
     width: 100%;
 }
 
-.col-lg-6 {
+.col-md-6 {
     padding: 5%;
+}
+
+#about {
+    padding-top: 5%;
 }
 
 
 @media only screen and (max-width: 768px){
-    .navbar {
-        height: auto;
-        margin: auto;
+    .hamburger {
+        display: block;
+        float: right;
+        padding-right: 5%;
+        padding-bottom: 5%;
     }
 
     img.logoimage{
@@ -104,10 +138,15 @@ img.logoimage{
     }
 
     .mobile-title {
+        display: inline-block;
         font-family:'Open Sans', sans-serif;
         visibility: visible;
         color: white;
+        font-size: 25px;
         padding: 20px;
     }
 
+    .menubar {
+        display: none;
+    }
 }
