@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/koisushigallery/static/js/main.23b78420.js",
+    "main.js": "/koisushigallery/static/js/main.2bdc098c.js",
     "index.html": "/koisushigallery/index.html",
-    "main.23b78420.js.map": "/koisushigallery/static/js/main.23b78420.js.map"
+    "main.2bdc098c.js.map": "/koisushigallery/static/js/main.2bdc098c.js.map"
   },
   "entrypoints": [
-    "static/js/main.23b78420.js"
+    "static/js/main.2bdc098c.js"
   ]
 }
