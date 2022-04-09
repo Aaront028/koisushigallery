@@ -68,7 +68,7 @@ li a {
 }
 
 li a:hover {
-    background-color: #EEEDDE;
+    /* background-color: #EEEDDE; */
     color: black;
 }
 
