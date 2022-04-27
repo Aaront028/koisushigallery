@@ -124,6 +124,12 @@ img.logoimage{
     padding-top: 5%;
 }
 
+.map-container {
+    margin:auto;
+    width: 600px;
+    height: 450px;
+}
+
 
 @media only screen and (max-width: 768px){
     .hamburger {

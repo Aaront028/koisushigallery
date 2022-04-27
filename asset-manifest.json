@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/koisushigallery/static/js/main.2066bb22.js",
+    "main.css": "/koisushigallery/static/css/main.e6c13ad2.css",
+    "main.js": "/koisushigallery/static/js/main.4f61570b.js",
     "index.html": "/koisushigallery/index.html",
-    "main.2066bb22.js.map": "/koisushigallery/static/js/main.2066bb22.js.map"
+    "main.e6c13ad2.css.map": "/koisushigallery/static/css/main.e6c13ad2.css.map",
+    "main.4f61570b.js.map": "/koisushigallery/static/js/main.4f61570b.js.map"
   },
   "entrypoints": [
-    "static/js/main.2066bb22.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.4f61570b.js"
   ]
 }
