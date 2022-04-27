@@ -11,6 +11,7 @@ p {
 
 footer {
     text-align: center;
+    padding-top: 30px;
 }
 
 hr {
@@ -32,6 +33,11 @@ padding: 8px;
 text-align: left;
 border-bottom: 1px solid #ddd;
 width: 100%;
+}
+
+.titles {
+    text-align: center;
+    padding-bottom: 5%;
 }
 
 .fa-solid{
