@@ -126,6 +126,7 @@ img.logoimage{
 
 .map-container {
     margin:auto;
+    padding: 0 10% 0 10%;
     width: 600px;
     height: 450px;
 }
@@ -161,4 +162,12 @@ img.logoimage{
     .menubar {
         display: none;
     }
+
+    .map-container {
+        margin: auto;
+        padding: 0 10% 0 10%;
+        width: 100%;
+        height: 450px;
+    }
+    
 }
